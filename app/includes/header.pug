@@ -1,0 +1,52 @@
+//- In 'includes' all paths to assets should be relative to the index.pug file,
+//- like so './images/image.jpg',
+//- and not '../images/image.jpg'
+
+header.main-header
+  div.main-header-bg
+    img(src="././images/assets/group.png")
+  div.tennis-ball
+    img(src="././images/assets/fill-2.png")
+  div.white-line
+
+  nav.main-nav
+    ul.main-menu
+      li
+        a(href="/") Inicio
+      li  
+        a(href="/") Acerca de nosotros
+      li 
+        a(href="/") Historia
+      li  
+        a(href="/") Contacto
+
+    ul.main-languaje-selector
+      li
+        a(href="/") ES
+      li
+        a(href="/") EN 
+  div.las-mejores-raquetas
+    p Las mejores raquetas para jugar
+      span.marked-word Tennis 
+
+    a.about-us-link(href="") Acerca de Nosotros
+
+  a.mobile-menu-btn(href="") 
+    i.fas.fa-bars(aria-hidden='true') 
+
+  div.mobile-menu
+    ul
+      li
+        a(href="/") Inicio
+      li  
+        a(href="/") Acerca de nosotros
+      li 
+        a(href="/") Historia
+      li  
+        a(href="/") Contacto
+    ul.languajes
+      li 
+        a(href="/") ES  
+      li
+        a(href="/") EN 
+
